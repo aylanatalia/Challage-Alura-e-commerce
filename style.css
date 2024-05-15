@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Poetsen+One&display=swap');
+
+:root{
+    --fonte--cute: 'Cute Font', sans-serif;
+    --fonte--poetsen: 'Poetsen One', sans-serif;
+    --cor--fundo--primaria: #FF8C00;
+    --cor--fonte: #FFF5EE;
+    --cor--fonte--titulo: #4f4f4f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor--fundo--primaria);
+    font-family: var(--fonte--cute);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor--fonte);
+}
+
+.cabecalho_logo{
+    width: 40px;
+}
+
+main{
+    display: flex;
+    gap: 4.5rem;
+    padding: 6.5rem 4.5rem;
+    justify-content: space-between;
+}
