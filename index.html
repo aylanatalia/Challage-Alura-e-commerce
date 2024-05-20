@@ -24,7 +24,7 @@
             <h2 class="forumurio_titulo" id="forumulariotit">ADICIONAR PRODUTO:</h2>
             <form class="form" id="form" data-form>
                 <input class="forumulario__campo" id="campo-nome" type="text" name="nome" placeholder="Nome" required data-form-nome>
-                <input class="forumulario__campo" id="campo-preco" type="number" name="preco" placeholder="Preço" required data-form-preco>
+                <input step="0.01" pattern="\d+(,\d{2})?" class="forumulario__campo" id="campo-preco" type="number" name="preco" placeholder="Preço" required data-form-preco>
                 <input class="forumulario__campo" id="campo-imagem" type="url" name="imagem" placeholder="imagem" required data-form-imagem>
                 <div class="formulario__botao">
                     <button class="botao-enviar" type="submit" id="enviar">Gravar</button>
