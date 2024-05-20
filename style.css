@@ -30,7 +30,161 @@
 
 main{
     display: flex;
-    gap: 4.5rem;
-    padding: 6.5rem 4.5rem;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte--cute);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor--fonte--titulo);    
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.7rem;
+    gap: 0.7rem;
+}
+
+.produto{
+    width: 12rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+.mensagem{
+    font-family: var(--fonte--poetsen);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--fonte--titulo);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 0.7rem;
+    background-color: var(--cor--fundo--primaria);
+    border: 3px solid black;
+    border-radius: 0.9rem;
+    width: 12.3rem;
+    height: 16.1rem;
+    font-family: var(--fonte--poetsen);
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--cor--fonte);
+}
+
+.card--imagem{
+    width: 11rem;
+    height: 10.9rem;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.card--info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card--value{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.forumurio_titulo{
+    text-align: center;
+}
+
+.forumulario__campo{
+    border: 3px solid var(--cor--fundo--primaria);
+    border-radius: 40px;
+    width: 21.9rem;
+    height: 3.6rem;
+    font-family: var(--fonte--poetsen);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor--fonte--titulo);
+    padding-left: 5px;
+    outline: none;
+}
+
+.formulario__botao{
+    display: flex;
+    gap: 13px;
+}
+
+.botao-enviar{
+    border: none;
+    border-radius: 15px;
+    width: 10.3rem;
+    height: 3.5rem;
+    background-color: var(--cor--fundo--primaria);
+    font-size: 1.5rem;
+    font-family: var(--fonte--poetsen);
+    font-weight: 400;
+    color: var(--cor--fonte);
+}
+
+.botao-limpar{
+    border: 3px solid var(--cor--fundo--primaria);
+    border-radius: 15px;
+    width: 10.3rem;
+    height: 3.5rem;
+    background-color: var(--cor--fonte);
+    font-size: 1.5rem;
+    font-family: var(--fonte--poetsen);
+    font-weight: 400;
+    color: var(--cor--fundo--primaria);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor--fundo--primaria);
+    font-family: var(--fonte--cute);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor--fonte--titulo);
+}
+
+.logo{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.logo_imagem{
+    width: 40px;
+}
+
+@media (min-width:769px){
+    main{
+        flex-direction: row;
+        align-items: start;
+        padding: 9.4rem 4.4rem;
+    }
+
+    .produtos{
+        width: 60%;
+        flex-grow: 1;
+    }
 }

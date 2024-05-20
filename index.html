@@ -16,11 +16,32 @@
     <main>
         <section class="produtos" id="produtos">
             <h2 class="produtos_titulo" id="titulo-produtos">MEUS PRODUTOS:</h2>
+            <section class="produtos__lista" id="lista-produtos" data-lista>
+
+            </section>
         </section>
         <section class="forumulario" id="forumulario">
             <h2 class="forumurio_titulo" id="forumulariotit">ADICIONAR PRODUTO:</h2>
+            <form class="form" id="form" data-form>
+                <input class="forumulario__campo" id="campo-nome" type="text" name="nome" placeholder="Nome" required data-form-nome>
+                <input class="forumulario__campo" id="campo-preco" type="number" name="preco" placeholder="Preço" required data-form-preco>
+                <input class="forumulario__campo" id="campo-imagem" type="url" name="imagem" placeholder="imagem" required data-form-imagem>
+                <div class="formulario__botao">
+                    <button class="botao-enviar" type="submit" id="enviar">Gravar</button>
+                    <button class="botao-limpar" type="reset" id="limpar">Limpar</button>
+                </div>
+            </form>
         </section>
     </main>
-
+    <footer>
+        <div class="logo">
+            <img class="logo_imagem" src="./imagens/kisspng-dogcat-relationship-dogcat-relationship-draw-dog-and-cat-animated-5b4bbfbe976a50.5774506915316909426202.png" alt="Logo AluraPets">
+            <h1 class="logo__titulo">AluraPets</h1>
+        </div>
+        <h2 class="desenvolvido">Desenvolvido por Ayla Natalia Martins Ferreira</h2>
+        <p class="texto">ALURA LATAM- 2024</p>
+    </footer>
+    <script type="module" src="./js/mostrarItens.js"></script>
+    <script type="module" src="./js/conectaApi.js"></script>
 </body>
 </html>
