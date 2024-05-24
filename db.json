@@ -1,58 +1,58 @@
 {
-    "produtos":[
-        {
-            "id": "1",
-            "imagem": "https://amepettatix.vteximg.com.br/arquivos/ids/162410-1000-1000/7898491030872.jpg?v=637320698594630000",
-            "nome": "Macaco de pelucia para cachorro",
-            "preco": "30,00"
-        },
-        {
-            "id": "2",
-            "imagem": "https://th.bing.com/th/id/OIP.dYKjXaUscMkRxYu8kvDz2QHaHa?rs=1&pid=ImgDetMain",
-            "nome": "Pente para gatos e cachorro",
-            "preco": "20,19"
-        },
-        {
-            "id": "3",
-            "imagem": "https://th.bing.com/th/id/R.1f2880962119b34aea1def04f352468c?rik=3eaFYaV1S2F53A&pid=ImgRaw&r=0",
-            "nome": "Brinqueto bola para gato com catnip",
-            "preco":"25,34"
-        },
-        {
-            "id": "4",
-            "imagem": "https://th.bing.com/th/id/OIP.Jqo8hwydJDfK3LI6PVDe0QHaHa?rs=1&pid=ImgDetMain",
-            "nome": "Filtro de água",
-            "preco": "99,99"
-        },
-        {
-            "id": "5",
-            "imagem": "https://th.bing.com/th/id/OIP.PItqcEssTHK2GwIjSCbRUQHaHT?rs=1&pid=ImgDetMain",
-            "nome": "Pote de ração automático Wi-fi",
-            "preco": "139,90"
-        },
-        {
-            "id": "6",
-            "imagem": "https://cdn.shopify.com/s/files/1/0500/7415/7212/products/21_1800x1800_cc1aaaaa-7120-4037-af9f-616f6055cff9_1600x.jpg?v=1656131013",
-            "nome": "Brinquedo interativo para cachorros",
-            "preco": "45,69"
-        },
-        {
-            "id": "7",
-            "imagem": "https://th.bing.com/th/id/OIP.njilskG8xp1ce-8NK65hzwHaGh?rs=1&pid=ImgDetMain",
-            "nome": "Bola automatica para gatos",
-            "preco": "35,60"
-        },
-        {
-            "id": "8",
-            "imagem": "https://th.bing.com/th/id/R.6dc25192fddcfe99572374d17dfc087a?rik=tBs7zaiglj7C%2bQ&pid=ImgRaw&r=0",
-            "nome": "Caixa de areia com pá para limpeza",
-            "preco": "82,99"
-        },
-        {
-            "id": "9",
-            "imagem": "https://th.bing.com/th/id/R.8893809f9c4f3a87660324e399910125?rik=N9%2fGmydmVzkZ4A&pid=ImgRaw&r=0",
-            "nome": "Garrafa de água portatil para cachorro",
-            "preco": "32,50"
-        }
-    ]
+  "produtos": [
+    {
+      "id": "1",
+      "imagem": "https://amepettatix.vteximg.com.br/arquivos/ids/162410-1000-1000/7898491030872.jpg?v=637320698594630000",
+      "nome": "Macaco de pelucia para cachorro",
+      "preco": "30,00"
+    },
+    {
+      "id": "2",
+      "imagem": "https://th.bing.com/th/id/OIP.dYKjXaUscMkRxYu8kvDz2QHaHa?rs=1&pid=ImgDetMain",
+      "nome": "Pente para gatos e cachorro",
+      "preco": "20,19"
+    },
+    {
+      "id": "3",
+      "imagem": "https://th.bing.com/th/id/R.1f2880962119b34aea1def04f352468c?rik=3eaFYaV1S2F53A&pid=ImgRaw&r=0",
+      "nome": "Brinqueto bola para gato com catnip",
+      "preco": "25,34"
+    },
+    {
+      "id": "4",
+      "imagem": "https://th.bing.com/th/id/OIP.Jqo8hwydJDfK3LI6PVDe0QHaHa?rs=1&pid=ImgDetMain",
+      "nome": "Filtro de água",
+      "preco": "99,99"
+    },
+    {
+      "id": "5",
+      "imagem": "https://th.bing.com/th/id/OIP.PItqcEssTHK2GwIjSCbRUQHaHT?rs=1&pid=ImgDetMain",
+      "nome": "Pote de ração automático Wi-fi",
+      "preco": "139,90"
+    },
+    {
+      "id": "6",
+      "imagem": "https://cdn.shopify.com/s/files/1/0500/7415/7212/products/21_1800x1800_cc1aaaaa-7120-4037-af9f-616f6055cff9_1600x.jpg?v=1656131013",
+      "nome": "Brinquedo interativo para cachorros",
+      "preco": "45,69"
+    },
+    {
+      "id": "7",
+      "imagem": "https://th.bing.com/th/id/OIP.njilskG8xp1ce-8NK65hzwHaGh?rs=1&pid=ImgDetMain",
+      "nome": "Bola automatica para gatos",
+      "preco": "35,60"
+    },
+    {
+      "id": "8",
+      "imagem": "https://th.bing.com/th/id/R.6dc25192fddcfe99572374d17dfc087a?rik=tBs7zaiglj7C%2bQ&pid=ImgRaw&r=0",
+      "nome": "Caixa de areia com pá para limpeza",
+      "preco": "82,99"
+    },
+    {
+      "id": "9",
+      "imagem": "https://th.bing.com/th/id/R.8893809f9c4f3a87660324e399910125?rik=N9%2fGmydmVzkZ4A&pid=ImgRaw&r=0",
+      "nome": "Garrafa de água portatil para cachorro",
+      "preco": "32,50"
+    }
+  ]
 }

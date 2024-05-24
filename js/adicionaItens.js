@@ -1,24 +1,29 @@
 import { conectaAPI } from "./conectaApi.js";
 
-const formulario = document.querySelector('[data-form]');
+const formulario = document.querySelector("[data-form]");
 
 async function criarItem(evento){
     evento.preventDefault();
 
-    const nome = document.querySelector('[data-form-nome]').value;
-    const preco = document.querySelector('[data-form-preco]').value;
-    const imagem = document.querySelector('[data-form-imagem]').value;
+    const nome = document.querySelector("[data-form-nome]").value.trim();
+    const preco = document.querySelector("[data-form-preco]").value.trim();
+    const imagem = document.querySelector("[data-form-imagem]").value.trim();
+    const id =document.querySelector("[data-id]").value.trim();
 
-    console.log('Dados do produto:', {nome, preco, imagem});
+    if(!nome || !preco || !imagem){
+        alert('Por favor, preencha todos os campos.');
+        return;
+    }
 
     try{
-        await conectaAPI.criarProduto(nome, preco, imagem);
+        await conectaAPI.criarProduto(nome, preco, imagem, id);
         alert('Produto adicionado');
     }catch(error){
         console.error('Erro ao criar produto', error);
+        alert('Erro ao adicionar o produto. Por favor tente mais tarde');
     }
 
-    window.location.reload(true);
+    
 }
 
 formulario.addEventListener("submit", evento => criarItem(evento));

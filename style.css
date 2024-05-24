@@ -102,6 +102,10 @@ main{
     justify-content: space-between;
 }
 
+.icone-excluir{
+    cursor: pointer;
+}
+
 .form{
     display: flex;
     flex-direction: column;

@@ -4,7 +4,7 @@ async function listarProdutos(){
     return conexaoConvertida;
 }   
 
-async function criarProduto(nome, preco, imagem){
+async function criarProduto(nome, preco, imagem, id){
     const novoProduto = await fetch("http://localhost:3000/produtos", {
         method: "POST",
         headers: {
@@ -17,13 +17,27 @@ async function criarProduto(nome, preco, imagem){
         })
     });
     if(!novoProduto.ok){
-        throw new Error('Nenhum produto foi adicionado' + novoProduto.statusText);
+        throw new Error('Nenhum produto foi adicionado');
     }
     const novoProdutoConvertido = await novoProduto.json();
     return novoProdutoConvertido;
 }
 
+async function excluirItem(itemId){
+    try{
+        const del = await fetch(`http://localhost:3000/produtos/${itemId}`,{
+            method: 'DELETE',
+        });
+        const delConvertida = await del.json();
+        console.log(delConvertida);
+    }catch(error){
+        console.error('Erro ao deletar produto', error);
+        throw error;
+    }
+}
+
 export const conectaAPI = {
     listarProdutos,
-    criarProduto
+    criarProduto,
+    excluirItem
 }
