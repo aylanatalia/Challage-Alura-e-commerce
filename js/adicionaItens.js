@@ -8,7 +8,6 @@ async function criarItem(evento){
     const nome = document.querySelector("[data-form-nome]").value.trim();
     const preco = document.querySelector("[data-form-preco]").value.trim();
     const imagem = document.querySelector("[data-form-imagem]").value.trim();
-    const id =document.querySelector("[data-id]").value.trim();
 
     if(!nome || !preco || !imagem){
         alert('Por favor, preencha todos os campos.');
@@ -16,7 +15,7 @@ async function criarItem(evento){
     }
 
     try{
-        await conectaAPI.criarProduto(nome, preco, imagem, id);
+        await conectaAPI.criarProduto(nome, preco, imagem);
         alert('Produto adicionado');
     }catch(error){
         console.error('Erro ao criar produto', error);
