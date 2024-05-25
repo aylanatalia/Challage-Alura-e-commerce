@@ -4,7 +4,7 @@ const formulario = document.querySelector("[data-form]");
 
 async function criarItem(evento){
     evento.preventDefault();
-
+ 
     const nome = document.querySelector("[data-form-nome]").value.trim();
     const preco = document.querySelector("[data-form-preco]").value.trim();
     const imagem = document.querySelector("[data-form-imagem]").value.trim();
